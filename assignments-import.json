@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "A101",
+    "title": "Propulsion Assignment",
+    "course": "RS101",
+    "description": "Calculate the thrust of a rocket engine given fuel flow rate and exhaust velocity.",
+    "points": 100,
+    "dueDate": "2023-02-15",
+    "availableFrom": "2023-01-10",
+    "availableUntil": "2023-02-20"
+  },
+  {
+    "_id": "A102",
+    "title": "Combustion Analysis",
+    "course": "RS101",
+    "description": "Analyze combustion efficiency for different fuel mixtures.",
+    "points": 100,
+    "dueDate": "2023-03-01",
+    "availableFrom": "2023-02-01",
+    "availableUntil": "2023-03-05"
+  },
+  {
+    "_id": "A103",
+    "title": "Nozzle Design Project",
+    "course": "RS101",
+    "description": "Design a converging-diverging nozzle for optimal thrust.",
+    "points": 150,
+    "dueDate": "2023-04-01",
+    "availableFrom": "2023-03-01",
+    "availableUntil": "2023-04-05"
+  },
+  {
+    "_id": "A201",
+    "title": "Lift and Drag Calculations",
+    "course": "RS102",
+    "description": "Calculate lift and drag forces for an airfoil at various angles of attack.",
+    "points": 100,
+    "dueDate": "2023-02-20",
+    "availableFrom": "2023-01-15",
+    "availableUntil": "2023-02-25"
+  },
+  {
+    "_id": "A202",
+    "title": "Wind Tunnel Analysis",
+    "course": "RS102",
+    "description": "Analyze wind tunnel data and compare with theoretical predictions.",
+    "points": 100,
+    "dueDate": "2023-03-15",
+    "availableFrom": "2023-02-15",
+    "availableUntil": "2023-03-20"
+  },
+  {
+    "_id": "A301",
+    "title": "Orbital Mechanics Problem Set",
+    "course": "RS103",
+    "description": "Solve orbital mechanics problems including Hohmann transfers.",
+    "points": 100,
+    "dueDate": "2023-02-28",
+    "availableFrom": "2023-01-20",
+    "availableUntil": "2023-03-05"
+  },
+  {
+    "_id": "A302",
+    "title": "Spacecraft Subsystem Design",
+    "course": "RS103",
+    "description": "Design a spacecraft power subsystem for a lunar mission.",
+    "points": 150,
+    "dueDate": "2023-04-15",
+    "availableFrom": "2023-03-01",
+    "availableUntil": "2023-04-20"
+  }
+]
+

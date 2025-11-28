@@ -1,0 +1,14 @@
+[
+  { "_id": "123-RS101", "user": "123", "course": "RS101", "status": "ENROLLED" },
+  { "_id": "123-RS102", "user": "123", "course": "RS102", "status": "ENROLLED" },
+  { "_id": "123-RS103", "user": "123", "course": "RS103", "status": "ENROLLED" },
+  { "_id": "234-RS101", "user": "234", "course": "RS101", "status": "ENROLLED" },
+  { "_id": "234-RS104", "user": "234", "course": "RS104", "status": "ENROLLED" },
+  { "_id": "345-RS102", "user": "345", "course": "RS102", "status": "ENROLLED" },
+  { "_id": "345-RS105", "user": "345", "course": "RS105", "status": "ENROLLED" },
+  { "_id": "456-RS103", "user": "456", "course": "RS103", "status": "ENROLLED" },
+  { "_id": "456-RS106", "user": "456", "course": "RS106", "status": "ENROLLED" },
+  { "_id": "567-RS107", "user": "567", "course": "RS107", "status": "ENROLLED" },
+  { "_id": "678-RS108", "user": "678", "course": "RS108", "status": "ENROLLED" }
+]
+
