@@ -34,6 +34,7 @@ app.use(
         // Allow all Vercel preview and production URLs
         /^https:\/\/kambaz-next-js.*\.vercel\.app$/,
         /^https:\/\/.*-benjamin-adams-projects-.*\.vercel\.app$/,
+        /^https:\/\/.*\.vercel\.app$/, // Allow any Vercel app
       ];
       
       // Check if origin matches any allowed pattern
