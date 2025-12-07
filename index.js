@@ -21,6 +21,9 @@ mongoose.connect(CONNECTION_STRING);
 
 const app = express();
 
+// Trust proxy for Render/Cloudflare
+app.set('trust proxy', 1);
+
 app.use(
   cors({
     credentials: true,
@@ -67,6 +70,8 @@ if (process.env.SERVER_ENV !== "development") {
   sessionOptions.cookie = {
     sameSite: "none",
     secure: true,
+    httpOnly: true,
+    maxAge: 24 * 60 * 60 * 1000, // 24 hours
     // Don't set domain - let the browser handle it for cross-origin
   };
 }
