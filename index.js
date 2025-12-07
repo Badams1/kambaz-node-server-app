@@ -11,6 +11,8 @@ import CourseRoutes from "./Kambaz/Courses/routes.js";
 import ModulesRoutes from "./Kambaz/Modules/routes.js";
 import AssignmentsRoutes from "./Kambaz/Assignments/routes.js";
 import EnrollmentsRoutes from "./Kambaz/Enrollments/routes.js";
+import QuizzesRoutes from "./Kambaz/Quizzes/routes.js";
+import QuizAttemptsRoutes from "./Kambaz/QuizAttempts/routes.js";
 
 // connect to the kambaz MongoDB database
 const CONNECTION_STRING =
@@ -76,6 +78,8 @@ CourseRoutes(app, db);
 ModulesRoutes(app, db);
 AssignmentsRoutes(app, db);
 EnrollmentsRoutes(app, db);
+QuizzesRoutes(app, db);
+QuizAttemptsRoutes(app, db);
 Lab5(app);                          // express instance
 Hello(app);
 
